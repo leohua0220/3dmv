@@ -38,7 +38,7 @@ def summarize_pth_file(file_path):
     summary_str = "\n".join(summary)
     
     # Save under "data_descriptions" folder directly(not with join exisiting path)
-    summary_file_path = "other/pth_summary.txt"
+    summary_file_path = "/home/hua/Desktop/new-script/other/pth_summary.txt"
     
     # If path does not exist, create it
     import os
@@ -50,5 +50,5 @@ def summarize_pth_file(file_path):
     print(f"Summary saved to {summary_file_path}")
 
 # Example usage
-file_path = "dataset/data/a24f64f7fb.pth"
+file_path = "/home/hua/Desktop/new-script/dataset/data/8b5caf3398.pth"
 summarize_pth_file(file_path)

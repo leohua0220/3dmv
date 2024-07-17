@@ -1,15 +1,18 @@
-Summary of .pth file: dataset/data/a24f64f7fb.pth
+Summary of .pth file: /home/hua/Desktop/new-script/dataset/data/8b5caf3398.pth
 
 Keys and corresponding data shapes and types:
 
-image_name: list of <class 'str'>, length = 33
-original_image: list of <class 'numpy.ndarray'>, length = 33
-    Shape of first element: (1168, 1752, 3)
+image_name: list of <class 'str'>, length = 3
+original_image: list of <class 'numpy.ndarray'>, length = 3
+    Shape of first element: (448, 672, 3)
     Data type of first element: uint8
-2d_semantic_labels: list of <class 'numpy.ndarray'>, length = 33
-    Shape of first element: (1168, 1752)
-    Data type of first element: int64
-camera_params: list of <class 'dict'>, length = 33
+2d_semantic_labels: list of <class 'numpy.ndarray'>, length = 3
+    Shape of first element: (448, 672)
+    Data type of first element: int16
+depth_image: list of <class 'numpy.ndarray'>, length = 3
+    Shape of first element: (448, 672)
+    Data type of first element: uint16
+camera_params: list of <class 'dict'>, length = 3
     Structure of first element:
         focal_length: <class 'torch.Tensor'>
         principal_point: <class 'torch.Tensor'>
